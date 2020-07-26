@@ -3,9 +3,7 @@
 .filter-button {
 	color: $title-text-color;
 	background-color: $button-bg-color;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.63;
+	@include font(500, 16px, 1.63);
 	text-align: center;
 	display: inline-block;
 	padding: 6px 22px;

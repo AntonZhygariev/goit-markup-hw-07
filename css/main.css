@@ -236,6 +236,7 @@ body {
   background-size: cover;
 }
 
+/* Features */
 .no-padding {
   padding-bottom: 0;
 }
@@ -318,8 +319,8 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
@@ -496,7 +497,7 @@ body {
 .develop {
   color: rgba(255, 255, 255, 0.4);
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -654,6 +655,7 @@ body {
 .input-form:focus ~ .label-form {
   -webkit-transform: translateY(-35px) translateX(26px);
           transform: translateY(-35px) translateX(26px);
+  font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   color: #2196f3;
@@ -917,6 +919,7 @@ body {
 
 .title-font {
   color: #212121;
+  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -981,11 +984,6 @@ body {
 
 /* Button */
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -995,6 +993,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;

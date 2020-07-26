@@ -1,12 +1,10 @@
 /* Button */
 
 .button {
+	@include centerFlex;
 	color: $white-color;
 	background-color: $accent-color;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 1.88;
-	@include centerFlex;
+	@include font(bold, 16px, 1.88);
 	text-align: center;
 	letter-spacing: 0.06em;
 	padding: 10px 32px;

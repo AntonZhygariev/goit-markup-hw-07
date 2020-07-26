@@ -3,3 +3,9 @@
 	justify-content: $justify-content;
 	align-items: $align-items;
 }
+
+@mixin font($wieght, $size, $height) {
+	font-weight: $wieght;
+	font-size: $size;
+	line-height: $height;
+}

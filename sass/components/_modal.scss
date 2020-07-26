@@ -35,9 +35,7 @@
 	& > h2 {
 		margin-top: 40px;
 		margin-bottom: 30px;
-		font-weight: bold;
-		font-size: 20px;
-		line-height: 23px;
+		@include font(bold, 20px, 23px);
 		text-align: center;
 		letter-spacing: 0.03em;
 		color: $title-text-color;
@@ -96,8 +94,7 @@
 	&:not(:placeholder-shown) ~ .label-form,
 	&:focus ~ .label-form {
 		transform: translateY(-35px) translateX(26px);
-		font-size: 12px;
-		line-height: 14px;
+		@include font(normal, 12px, 14px);
 		color: $accent-color;
 		@extend %TransitionTransform;
 		cursor: pointer;
@@ -122,9 +119,7 @@
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%) translateX(42px);
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 16px;
+	@include font(normal, 14px, 16px);
 	letter-spacing: 0.01em;
 }
 
@@ -136,9 +131,7 @@
 	padding-right: 16px;
 	padding-bottom: 12px;
 	padding-left: 16px;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 16px;
+	@include font(normal, 14px, 16px);
 	letter-spacing: 0.01em;
 }
 
@@ -155,9 +148,7 @@
 .checkbox-label {
 	display: inline-flex;
 	align-items: center;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 24px;
+	@include font(normal, 14px, 24px);
 	letter-spacing: 0.03em;
 
 	& a {

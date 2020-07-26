@@ -1,17 +1,4 @@
+@import "./components/basic";
 @import "./utils/var";
 @import "./components/logo";
 @import "./components/header";
-
-a {
-	text-decoration: none;
-}
-
-img {
-	display: block;
-}
-
-.list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}

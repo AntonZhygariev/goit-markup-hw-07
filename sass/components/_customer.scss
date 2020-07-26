@@ -1,0 +1,34 @@
+/* Customer */
+
+.customer-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 90px;
+	border: 1px solid;
+	color: #afb1b8;
+	border-radius: 4px;
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+	border: 1px solid;
+	color: $accent-color;
+	cursor: pointer;
+
+	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customer-icon .icon {
+	fill: currentColor;
+}
+
+.customers {
+	display: flex;
+	justify-content: center;
+}
+
+.customers .item + .item {
+	margin-left: 30px;
+}

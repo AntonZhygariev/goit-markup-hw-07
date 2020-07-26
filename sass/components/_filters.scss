@@ -25,9 +25,8 @@
 }
 
 .filter-button-block {
-	display: flex;
+	@include centerFlex;
 	margin-bottom: 50px;
-	justify-content: center;
 
 	& .item + .item {
 		margin-left: 8px;

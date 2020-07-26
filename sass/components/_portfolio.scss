@@ -1,7 +1,7 @@
 /* Portfolio */
 
 .project-blocks {
-	display: flex;
+	@include centerFlex;
 	flex-wrap: wrap;
 	margin: -15px;
 }

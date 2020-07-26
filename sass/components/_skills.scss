@@ -1,8 +1,7 @@
 /* Skills */
 
 .skills {
-	display: flex;
-	justify-content: center;
+	@include centerFlex;
 }
 
 .skills .item + .item {

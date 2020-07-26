@@ -12,7 +12,7 @@
 }
 
 .hero {
-	display: flex;
+	@include centerFlex;
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 700px;

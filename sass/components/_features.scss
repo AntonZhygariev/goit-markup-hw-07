@@ -3,8 +3,7 @@
 }
 
 .features {
-	display: flex;
-	justify-content: center;
+	@include centerFlex;
 
 	& .item {
 		width: 270px;

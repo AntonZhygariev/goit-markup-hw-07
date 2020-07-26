@@ -71,7 +71,7 @@
 }
 
 .site-nav {
-	display: flex;
+	@include centerFlex;
 
 	& .item {
 		position: relative;
@@ -87,7 +87,7 @@
 }
 
 .address-nav {
-	display: flex;
+	@include centerFlex;
 	margin-left: auto;
 
 	& .item + .item {
@@ -96,7 +96,6 @@
 }
 
 .header-nav {
-	display: flex;
-	align-items: center;
+	@include centerFlex;
 	border-bottom: 1px solid #ececec;
 }

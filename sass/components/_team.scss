@@ -5,8 +5,7 @@
 }
 
 .team {
-	display: flex;
-	justify-content: center;
+	@include centerFlex;
 
 	& .item + .item {
 		margin-left: 30px;

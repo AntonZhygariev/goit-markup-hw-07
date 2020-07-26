@@ -6,8 +6,7 @@
 }
 
 .footer-container {
-	display: flex;
-	align-items: baseline;
+	@include centerFlex($align-items: baseline);
 }
 
 .address-container {
@@ -37,6 +36,7 @@
 
 .footer-contact {
 	color: $footer-adress-color;
+	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.71;
@@ -71,8 +71,7 @@
 }
 
 .subscribe-form {
-	display: flex;
-	align-items: baseline;
+	@include centerFlex($align-items: baseline);
 }
 
 .footer-subscribe {
@@ -86,8 +85,6 @@
 	border-radius: 4px;
 	background-color: inherit;
 
-	font-family: Roboto;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;

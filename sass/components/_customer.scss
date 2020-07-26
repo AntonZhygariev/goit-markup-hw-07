@@ -1,9 +1,7 @@
 /* Customer */
 
 .customer-icon {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centerFlex;
 	width: 170px;
 	height: 90px;
 	border: 1px solid;
@@ -25,8 +23,7 @@
 }
 
 .customers {
-	display: flex;
-	justify-content: center;
+	@include centerFlex;
 }
 
 .customers .item + .item {

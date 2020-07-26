@@ -35,8 +35,6 @@
 	& > h2 {
 		margin-top: 40px;
 		margin-bottom: 30px;
-		font-family: Roboto;
-		font-style: normal;
 		font-weight: bold;
 		font-size: 20px;
 		line-height: 23px;
@@ -50,9 +48,7 @@
 	position: absolute;
 	top: 8px;
 	right: 8px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centerFlex;
 	width: 30px;
 	height: 30px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -76,7 +72,7 @@
 
 .field-form {
 	position: relative;
-	display: flex;
+	@include centerFlex($justify-content: flex-start, $align-items: stretch);
 	flex-direction: column;
 
 	& + .field-form {
@@ -126,7 +122,6 @@
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%) translateX(42px);
-	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
@@ -141,8 +136,6 @@
 	padding-right: 16px;
 	padding-bottom: 12px;
 	padding-left: 16px;
-	font-family: Roboto;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
@@ -150,9 +143,7 @@
 }
 
 .modal-button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centerFlex;
 	margin-bottom: 40px;
 }
 
@@ -164,8 +155,6 @@
 .checkbox-label {
 	display: inline-flex;
 	align-items: center;
-	font-family: Roboto;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;

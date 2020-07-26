@@ -1,3 +1,4 @@
+/* Basic */
 a {
   text-decoration: none;
 }
@@ -27,6 +28,7 @@ body {
   width: 1200px;
 }
 
+/* Logo */
 .logo {
   color: #2196f3;
   font-family: Raleway, sans-serif;
@@ -43,6 +45,7 @@ body {
   color: #ffffff;
 }
 
+/* Header */
 .link {
   color: #212121;
   font-weight: 500;
@@ -147,6 +150,7 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+/* Hero */
 .hero-text {
   color: #ffffff;
   font-weight: 900;
@@ -294,6 +298,7 @@ body {
   text-align: center;
 }
 
+/* Modal */
 .backdrop {
   position: fixed;
   top: 0;
@@ -547,6 +552,7 @@ body {
   border-radius: 2px;
 }
 
+/* SocialIcon  */
 .icon-social {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -614,6 +620,7 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Filters */
 .filter-button {
   color: #212121;
   background-color: #f5f4fa;
@@ -658,6 +665,7 @@ body {
   background-color: #2196f3;
 }
 
+/* Button */
 .button {
   color: #ffffff;
   background-color: #2196f3;

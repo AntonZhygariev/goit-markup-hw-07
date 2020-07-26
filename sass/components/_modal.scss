@@ -62,7 +62,7 @@
 	&:hover,
 	&:focus {
 		fill: $accent-color;
-		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) transform;
+		@extend %Transition;
 		cursor: pointer;
 	}
 }
@@ -90,7 +90,7 @@
 	&:focus-within {
 		outline: none;
 		border: 1px solid $accent-color;
-		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) transform;
+		@extend %TransitionTransform;
 		cursor: pointer;
 	}
 
@@ -100,7 +100,7 @@
 		font-size: 12px;
 		line-height: 14px;
 		color: $accent-color;
-		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) transform;
+		@extend %TransitionTransform;
 		cursor: pointer;
 	}
 }
@@ -113,7 +113,7 @@
 
 	.input-form:focus ~ & {
 		fill: $accent-color;
-		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) transform;
+		@extend %TransitionTransform;
 		cursor: pointer;
 	}
 }

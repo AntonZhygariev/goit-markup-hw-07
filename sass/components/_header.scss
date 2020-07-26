@@ -4,7 +4,6 @@
 	color: $title-text-color;
 	@include font(500, 14px, 1.14);
 	letter-spacing: 0.02em;
-
 	display: block;
 	padding-top: 32px;
 	padding-bottom: 32px;
@@ -13,7 +12,6 @@
 	&:focus {
 		color: $accent-color;
 		cursor: pointer;
-
 		@extend %Transition;
 	}
 }
@@ -28,7 +26,6 @@
 		left: 0;
 		height: 4px;
 		width: 100%;
-
 		border-radius: 2px;
 		background-color: $accent-color;
 	}
@@ -38,14 +35,12 @@
 	color: $primary-text-color;
 	@include font(500, 14px, 1.14);
 	letter-spacing: 0.02em;
-
 	padding-top: 32px;
 	padding-bottom: 32px;
 
 	&:hover,
 	&:focus {
 		color: $accent-color;
-
 		@extend %Transition;
 	}
 }
